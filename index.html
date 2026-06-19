@@ -11,15 +11,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Jost:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         :root {
-            /* ── Светло-синий металлик палитра ── */
-            --bg-main:    #D6E4F0;          /* основной фон — светло-стальной */
-            --bg-mid:     #C2D6E8;          /* чуть темнее */
-            --bg-deep:    #A8C4D8;          /* акцентные блоки */
-            --nav-bg:     rgba(180, 210, 232, 0.88);
+            /* ── Бирюзово-металлический палитра ── */
+            --bg-main:    #B0DCD2;          /* основной фон — светло-бирюзовый металлик */
+            --bg-mid:     #97CCBF;          /* чуть темнее */
+            --bg-deep:    #76B4A5;          /* акцентные блоки */
+            --nav-bg:     rgba(170, 222, 208, 0.88);
             --card-bg:    rgba(255, 255, 255, 0.55);
-            --card-border: rgba(100, 160, 200, 0.30);
+            --card-border: rgba(80, 160, 145, 0.30);
             --glass:      rgba(255, 255, 255, 0.35);
-            --border-glass: rgba(100, 160, 200, 0.25);
+            --border-glass: rgba(80, 160, 145, 0.25);
 
             /* ── Тёмно-золотой текст ── */
             --gold:       #8B6010;          /* основной тёмно-золотой */
@@ -37,7 +37,7 @@
         * { box-sizing: border-box; margin: 0; padding: 0; }
         html { overflow-x: hidden; }
         body {
-            background: linear-gradient(160deg, #E8F2FA 0%, #D0E4F2 35%, #C2D6E8 65%, #B8CCDE 100%);
+            background: linear-gradient(160deg, #DCF1EB 0%, #BFE2D8 35%, #97CCBF 65%, #82BBAE 100%);
             color: var(--text-main);
             font-family: 'Jost', sans-serif;
             min-height: 100vh;
@@ -59,7 +59,7 @@
             position: sticky;
             top: 0;
             z-index: 1000;
-            box-shadow: 0 2px 20px rgba(100,160,200,0.18);
+            box-shadow: 0 2px 20px rgba(80,160,145,0.18);
         }
         nav .logo { font-family: 'Cormorant Garamond', serif; font-size: 28px; color: var(--text-main); text-decoration: none; font-weight: bold; letter-spacing: 2px; }
         nav .logo span { color: var(--gold); }
@@ -119,7 +119,7 @@
             align-items: center;
             backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
-            box-shadow: 0 8px 32px rgba(100,160,200,0.18);
+            box-shadow: 0 8px 32px rgba(80,160,145,0.18);
             margin-bottom: 60px;
         }
         .story-img-block { flex: 1; min-width: 300px; text-align: center; }
@@ -150,7 +150,7 @@
         .story-text p { margin-bottom: 15px; }
 
         .result-badge {
-            background: linear-gradient(135deg, rgba(139,96,16,0.10) 0%, rgba(200,225,240,0.40) 100%);
+            background: linear-gradient(135deg, rgba(139,96,16,0.10) 0%, rgba(170,222,208,0.40) 100%);
             border: 1px dashed var(--gold-mid);
             padding: 20px;
             border-radius: 12px;
@@ -179,7 +179,7 @@
             padding: 22px;
             border-radius: 12px;
             border: 1px solid var(--card-border);
-            box-shadow: 0 2px 10px rgba(100,160,200,0.10);
+            box-shadow: 0 2px 10px rgba(80,160,145,0.10);
         }
         .info-card h4 { color: var(--gold); margin: 10px 0 8px 0; font-size: 16px; }
         .info-card p { font-size: 14px; color: var(--text-muted); line-height: 1.5; }
@@ -207,7 +207,7 @@
             -webkit-backdrop-filter: blur(10px);
             transition: 0.3s;
             text-align: left;
-            box-shadow: 0 2px 12px rgba(100,160,200,0.10);
+            box-shadow: 0 2px 12px rgba(80,160,145,0.10);
         }
         .card-product:hover { transform: translateY(-5px); border-color: var(--gold-light); box-shadow: 0 8px 28px rgba(139,96,16,0.15); }
         .card-product h3 { font-size: 26px; color: var(--gold); margin-bottom: 14px; letter-spacing: 1px; }
@@ -225,7 +225,7 @@
             border-radius: 20px;
             text-align: center;
             backdrop-filter: blur(10px);
-            box-shadow: 0 4px 20px rgba(100,160,200,0.14);
+            box-shadow: 0 4px 20px rgba(80,160,145,0.14);
         }
         .reviews-box h2 { font-size: 32px; color: var(--text-main); margin-bottom: 12px; letter-spacing: 1px; }
         .reviews-box p { color: var(--text-muted); font-size: 15px; max-width: 650px; margin: 0 auto 25px; line-height: 1.6; font-weight: 300; }
@@ -263,7 +263,7 @@
 
         /* ── ФУТЕР ── */
         footer {
-            background: linear-gradient(135deg, #A8C4D8 0%, #90B0C8 100%);
+            background: linear-gradient(135deg, #76B4A5 0%, #5E9A8C 100%);
             border-top: 1px solid var(--card-border);
             color: var(--text-mid);
             text-align: center;
