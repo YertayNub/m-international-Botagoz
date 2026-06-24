@@ -11,40 +11,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Jost:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         :root {
-            /* ── Бирюзово-металлический палитра ── */
-            --bg-main:    #B0DCD2;          /* основной фон — светло-бирюзовый металлик */
-            --bg-mid:     #97CCBF;          /* чуть темнее */
-            --bg-deep:    #76B4A5;          /* акцентные блоки */
-            --nav-bg:     rgba(170, 222, 208, 0.88);
-            --card-bg:    rgba(255, 255, 255, 0.55);
-            --card-border: rgba(80, 160, 145, 0.30);
-            --glass:      rgba(255, 255, 255, 0.35);
-            --border-glass: rgba(80, 160, 145, 0.25);
+    /* ── Светло-синий металлик палитра ── */
+    --bg-main:      #D6E4F0;          /* основной фон — светло-стальной */
+    --bg-mid:       #C2D6E8;          /* чуть темнее */
+    --bg-deep:      #A8C4D8;          /* акцентные блоки */
+    --nav-bg:       rgba(180, 210, 232, 0.88);
+    --card-bg:      rgba(255, 255, 255, 0.55);
+    --card-border:  rgba(100, 160, 200, 0.30);
+    --glass:        rgba(255, 255, 255, 0.35);
+    --border-glass: rgba(100, 160, 200, 0.25);
 
-            /* ── Тёмно-золотой текст ── */
-            --gold:       #8B6010;          /* основной тёмно-золотой */
-            --gold-mid:   #A8782A;          /* средний золотой */
-            --gold-light: #C9A84A;          /* светлый акцент */
-            --gold-btn:   #7A5210;          /* кнопки */
+    /* ── Тёмно-золотой текст ── */
+    --gold:         #8B6010;          /* основной тёмно-золотой */
+    --gold-mid:     #A8782A;          /* средний золотой */
+    --gold-light:   #C9A84A;          /* светлый акцент */
+    --gold-btn:     #7A5210;          /* кнопки */
 
-            /* ── Текст ── */
-            --text-main:  #1C2A3A;          /* основной тёмно-синий текст */
-            --text-mid:   #2E4A60;          /* средний */
-            --text-muted: #4A6880;          /* приглушённый */
-            --text-light: #6A8CA0;          /* очень приглушённый */
-        }
+    /* ── Текст ── */
+    --text-main:    #1C2A3A;          /* основной тёмно-синий текст */
+    --text-mid:     #2E4A60;          /* средний */
+    --text-muted:   #4A6880;          /* приглушённый */
+    --text-light:   #6A8CA0;          /* очень приглушённый */
+}
 
         * { box-sizing: border-box; margin: 0; padding: 0; }
         html { overflow-x: hidden; }
         body {
-            background: linear-gradient(160deg, #DCF1EB 0%, #BFE2D8 35%, #97CCBF 65%, #82BBAE 100%);
-            color: var(--text-main);
-            font-family: 'Jost', sans-serif;
-            min-height: 100vh;
-            overflow-x: hidden;
-        }
+    background: linear-gradient(160deg, #E8F2FA 0%, #D0E4F2 35%, #C2D6E8 65%, #B8CCDE 100%);
+    color: var(--text-main);
+    font-family: 'Jost', sans-serif;
+    min-height: 100vh;
+}
 
-        h1, h2, h3, h4 { font-family: 'Cormorant Garamond', serif; font-weight: 600; color: var(--text-main); }
+/* Шрифты для заголовков */
+h1, h2, h3, h4 { 
+    font-family: 'Cormorant Garamond', serif; 
+    font-weight: 600; 
+    color: var(--text-main); 
+}
 
         /* ── НАВИГАЦИЯ ── */
         nav {
